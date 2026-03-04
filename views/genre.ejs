@@ -1,0 +1,38 @@
+<%- include("partials/header.ejs") %>
+<% if (locals.datas) {%>
+    <div class="cards-container">
+        <% for (const data of datas){%>
+            <div class="anime-card">
+                <div class="card-header">
+                    <h2><% data.title %></h2>
+                    <h4><% data.title_english %></h4>
+                    <div class="info">
+                        <% data.type %>, 
+                        <% data.aired.prop.from.year %> | 
+                        <% data.status %> | 
+                        <% data.episodes%> eps, 
+                        <% data.duration %></div>
+                    <div class="tags">
+                        <% for (const genre in data.genres) {%>
+                            <span><% genre.name %></span>
+                        <% } %>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <img class="poster" src=<% data.images.jpg.image_url %> alt="Poster">
+                    <div class="description">
+                        <% data.synopsis %>
+                    </div>
+                </div>
+
+                <div class="card-footer">
+                    <span class="rating">⭐ <% data.score %></span>
+                    <span class="members">👤 <% data.members %>4.3M</span>
+                    <button>Add to My List</button>
+                </div>
+            </div>
+        <% } %>
+    </div>
+<% }
+<%- include("partials/footer.ejs") %>
