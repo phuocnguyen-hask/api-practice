@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
     res.render("index.ejs", {pageCss:""});
 })
 
-app.get("/anime-search", async (req, res) => {
+app.get("/genre-search", async (req, res) => {
     const genreId = req.query.genreId;
     const result = (await axios.get(API_URL + `anime?genres=${genreId}`));
     res.render("genre.ejs", {pageCss: "season.css", datas: result.data.data});
