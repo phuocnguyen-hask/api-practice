@@ -23,7 +23,7 @@ main{
     width: 40px;
     height: 40px;
 }
-.navbar ul{
+.navbar > ul{
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -45,4 +45,46 @@ footer{
     justify-content: center;
     padding: 15px;
     margin: 10px 0 0 0;
+}
+/*dropdown style */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    padding: 15px;
+    min-width: 300px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px 20px;
+
+    border-radius: 2px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-menu li a:hover {
+    background: #f3f4f6;
 }
