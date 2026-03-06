@@ -4,6 +4,7 @@
   <% for (const data of datas){%>
   <div class="anime-card">
     <div class="card-header">
+      <a href="/detail?id=<%= data.mal_id %>"></a>
       <h2><%= data.title %></h2>
       <h4><%= data.title_english %></h4>
       <div class="info">
@@ -20,7 +21,7 @@
     </div>
 
     <div class="card-body">
-      <img class="poster" src=<%= data.images.jpg.image_url %> alt="Poster">
+      <a href="/detail?id=<%= data.mal_id %>"><img class="poster" src=<%=data.images.jpg.image_url %> alt="Poster"></a>
       <div class="description">
         <%= data.synopsis %>
       </div>

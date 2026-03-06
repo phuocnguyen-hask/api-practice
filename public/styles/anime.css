@@ -1,0 +1,70 @@
+.watch-card{
+    width: 40%;
+    margin: 200px auto;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.7)), url("bg-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 50px;
+}
+.watch-card ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.watch-card ul li{
+    list-style: none;
+}
+.watch-card .title{
+    color: #29bf45;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.main-content{
+    display: flex;
+    gap: 25px;
+}
+.main-content .description p{
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+.poster-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 250px;
+    position: relative;
+}
+.poster-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.poster-wrapper .btn-play{
+    display: block;
+    position: absolute;
+    top: 80%;
+    width: 100%; /* in absolute position, it shrinks its size to content width*/
+    background-color: rgba(255, 0, 0, 0.6);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+.description{
+    color: #d1cfcf;
+    height: 300px;
+    overflow-y: auto;
+}

@@ -25,6 +25,9 @@
     padding: 15px 10px;
     border-bottom: 1px solid #333;
 }
+.card-header a {
+    text-decoration: none;
+}
 
 .card-header h2 {
     margin: 0;

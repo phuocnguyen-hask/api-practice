@@ -36,6 +36,16 @@ app.get("/season-search", async (req, res) => {
     }
 })
 
+app.get("/detail", async (req, res) => {
+    const id = req.query.id;
+    try{
+        const result = (await axios.get(API_URL + `anime/${id}`));
+        res.render("anime.ejs", {pageCss: "anime.css", data: result.data.data});
+    } catch (error) {
+        res.render("error.ejs", {pageCss: "error.css", error: error});
+    }
+});
+
 app.listen(port, () => {
     console.log(`App is running on port ${port}`);
 })
