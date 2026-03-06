@@ -11,12 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.get("/", async (req, res) => {
-    try{
-        const result = (await axios.get(API_URL + `recommendations/anime`));
-        res.render("index.ejs", {pageCss: "index.css", datas: result.data.data});
-    } catch (error) {
-        res.render("error.ejs", {pageCss: "error.css", error: error});
-    }
+    res.render("index.ejs", {pageCss: "index.css"});
 })
 
 app.get("/genre-search", async (req, res) => {
@@ -34,7 +29,7 @@ app.get("/season-search", async (req, res) => {
     const year = req.query.year;
     const season = req.query.season;
     try{
-        const result = (await axios.get(API_URL + `season/${year}/${season}`));
+        const result = (await axios.get(API_URL + `seasons/${year}/${season}`));
         res.render("season.ejs", {pageCss: "season.css", datas: result.data.data});
     } catch (error) {
         res.render("error.ejs", {pageCss: "error.css", error: error});
