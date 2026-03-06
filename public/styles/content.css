@@ -39,6 +39,22 @@ main{
     color: #83bcc27e;
     text-decoration: underline;
 }
+.btn-login {
+    display: inline-block;
+    background-color: #c0392b;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+
+.btn-login:hover {
+    background-color: #a93226;
+    transform: translateY(-2px);
+}
 footer{
     background-color: #000;
     display: flex;

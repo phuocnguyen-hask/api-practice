@@ -4,30 +4,23 @@
   <% for (const data of datas){%>
   <div class="anime-card">
     <div class="card-header">
-      <h2>
-        <%= data.title %>
-      </h2>
-      <h4>
-        <%= data.title_english %>
-      </h4>
+      <h2><%= data.title %></h2>
+      <h4><%= data.title_english %></h4>
       <div class="info">
         <%= data.type %>,
         <%= data.aired.prop.from.year %> |
         <%= data.status %> |
         <%= data.episodes%> eps,
-        <%= data.duration %>
-      </div>
+        <%= data.duration %></div>
       <div class="tags">
         <% for (const genre of data.genres) {%>
-        <span>
-          <%= genre.name %>
-        </span>
+        <span><%= genre.name %></span>
         <% } %>
       </div>
     </div>
 
     <div class="card-body">
-      <img class="poster" src=<%=data.images.jpg.image_url %> alt="Poster">
+      <img class="poster" src=<%= data.images.jpg.image_url %> alt="Poster">
       <div class="description">
         <%= data.synopsis %>
       </div>
@@ -41,5 +34,5 @@
   </div>
   <% } %>
 </div>
-<% }%>
+<% } %>
 <%- include("partials/footer.ejs") %>

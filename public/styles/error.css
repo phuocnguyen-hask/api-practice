@@ -1,0 +1,56 @@
+/* Đảm bảo toàn bộ khu vực bao phủ hết chiều cao màn hình và nền tối */
+.error-wrapper {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;     /* Căn giữa theo chiều dọc */
+    height: 100vh;           /* Bằng 100% chiều cao màn hình */
+    background-color: #1e1e24; /* Màu nền tối giống ảnh của bạn */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Trang trí cho khối thông báo */
+.error-card {
+    background-color: #2b2b36;
+    padding: 40px 50px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-top: 4px solid #ff4b4b; /* Viền đỏ phía trên để nhấn mạnh lỗi */
+    max-width: 400px;
+}
+
+.error-icon {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.error-title {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.error-message {
+    color: #a9a9b3;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* Trang trí nút bấm */
+.btn-back {
+    display: inline-block;
+    background-color: #ff4b4b;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+/* Hiệu ứng khi di chuột vào nút */
+.btn-back:hover {
+    background-color: #e03e3e;
+    transform: translateY(-2px); /* Nút hơi nẩy lên một chút */
+}
