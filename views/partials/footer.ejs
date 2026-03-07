@@ -28,7 +28,7 @@
             <p data-tab="movie">HOT MOVIE</p>
         </div>
         <div class="hot-content">
-            <div class="hot-list" id="tv">
+            <div class="hot-list active" id="tv">
                 <% for (const anime of locals.hotTvs) { %>
                 <a class="hot-card click-to-watch" href="/detail?id=<%= anime.mal_id %>">
                     <img src=<%= anime.images.jpg.image_url %> width="150">

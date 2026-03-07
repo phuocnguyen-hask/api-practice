@@ -2,7 +2,7 @@ import axios from "axios";
 import express from "express";
 import bodyParser from "body-parser";
 import recentAnimes from "./public/data/recent.json" with {type: "json"};
-import hotTv from "./public/data/hot-tv.json" with {type: "json"};
+import hotTvs from "./public/data/hot-tv.json" with {type: "json"};
 import hotMovies from "./public/data/hot-movie.json" with {type: "json"};
 import hotOvas from "./public/data/hot-ova.json" with {type: "json"};
 
@@ -10,7 +10,7 @@ const app = express();
 const port = 3000;
 const API_URL = "https://api.jikan.moe/v4/";
 const allRecentAnimes = recentAnimes.data;
-const allHotTv = hotTv.data;
+const allHotTv = hotTvs.data;
 const allHotMovies = hotMovies.data;
 const allHotOvas = hotOvas.data;
 

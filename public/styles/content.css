@@ -315,6 +315,13 @@ main{
 .hot-content a:hover{
     color: #a2cf27;
 }
+.hot-list{
+    display:none;
+}
+
+.hot-list.active{
+    display:block;
+}
 .click-to-watch {
     position: relative;
     display: inline-block;
