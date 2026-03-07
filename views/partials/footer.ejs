@@ -1,4 +1,81 @@
+</div>
+
+<aside class="sidebar">
+    <div class="sidebar-box">
+        <h3>Hôm nay xem gì?</h3>
+        <hr>
+        <p>Nếu bạn chưa biết xem gì, hãy để chúng tôi gợi ý cho bạn!</p>
+        <a href="/random"><button class="random-button">Gợi ý <strong>ngẫu nhiên</strong></button></a>
+    </div>
+    <div class="sidebar-box">
+        <p>ANIME MỚI CẬP NHẬT</p>
+        <hr>
+        <ul class="recent-update-aside">
+            <% if (locals.recentAnimes){ %>
+                <% for (const anime of recentAnimes){ %>
+                    <li class="recent-anime">
+                        <a href="/detail?id=<%= anime.entry.mal_id %>"><%= anime.entry.title %></a>
+                        <span> <%= anime.episodes[0].title %></span>
+                    </li>
+                <% } %>
+            <% } %>
+        </ul>
+    </div>
+    <div class="sidebar-box">
+        <div class="hot-title">
+            <p data-tab="tv" class="active">HOT TV</p>
+            <p data-tab="ova">HOT OVA</p>
+            <p data-tab="movie">HOT MOVIE</p>
+        </div>
+        <div class="hot-content">
+            <div class="hot-list" id="tv">
+                <% for (const anime of locals.hotTvs) { %>
+                <a class="hot-card click-to-watch" href="/detail?id=<%= anime.mal_id %>">
+                    <img src=<%= anime.images.jpg.image_url %> width="150">
+                    <div class="play-overlay">
+                        <span class="play-btn">▶</span>
+                    </div>
+                    <span class="title" href="#"><%= anime.title %></span>
+                </a>
+            <% } %>
+            </div>
+            <div class="hot-list" id="ova">
+                <% for (const anime of locals.hotOvas) { %>
+                <a class="hot-card click-to-watch" href="/detail?id=<%= anime.mal_id %>">
+                    <img src=<%= anime.images.jpg.image_url %> width="150">
+                    <div class="play-overlay">
+                        <span class="play-btn">▶</span>
+                    </div>
+                    <span class="title" href="#"><%= anime.title %></span>
+                </a>
+            <% } %>
+            </div>
+            <div class="hot-list" id="movie">
+                <% for (const anime of locals.hotMovies) { %>
+                <a class="hot-card click-to-watch" href="/detail?id=<%= anime.mal_id %>">
+                    <img src=<%= anime.images.jpg.image_url %> width="150">
+                    <div class="play-overlay">
+                        <span class="play-btn">▶</span>
+                    </div>
+                    <span class="title" href="#"><%= anime.title %></span>
+                </a>
+            <% } %>
+            </div>
+            
+        </div>
+    </div>
+</aside>
+</div>
 </main>
-    <footer>© 2026 MyWebsite. All rights reserved.</footer>
+</div>
+<footer>
+    © 2026 Meo meo meo reserved.
+</footer>
+<script src="js/index.js"></script>
+<% if (locals.pageJs) {%>
+    <script src="js/<% pageJS %>"></script>
+<% } %>
+
 </body>
+
 </html>

@@ -29,7 +29,7 @@
 
     <div class="card-footer">
       <span class="rating">⭐ <%= data.score %></span>
-      <span class="members">👤 <%= data.members %>4.3M</span>
+      <span class="members">👤 <%= new Intl.NumberFormat('en', { notation: 'compact' }).format(data.members) %></span>
       <button>Add to My List</button>
     </div>
   </div>

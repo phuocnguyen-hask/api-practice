@@ -1,0 +1,1156 @@
+{
+    "pagination": {
+        "last_visible_page": 1,
+        "has_next_page": false
+    },
+    "data": [
+        {
+            "entry": {
+                "mal_id": 55830,
+                "url": "https://myanimelist.net/anime/55830/Fate_strange_Fake",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1752/150192.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1752/150192t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1752/150192l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1752/150192.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1752/150192t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1752/150192l.webp"
+                    }
+                },
+                "title": "Fate/strange Fake"
+            },
+            "episodes": [
+                {
+                    "mal_id": 6,
+                    "url": "https://myanimelist.net/anime/55830/Fate_strange_Fake/episode/6",
+                    "title": "Episode 6",
+                    "premium": true
+                },
+                {
+                    "mal_id": 5,
+                    "url": "https://myanimelist.net/anime/55830/Fate_strange_Fake/episode/5",
+                    "title": "Episode 5",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 59843,
+                "url": "https://myanimelist.net/anime/59843/AldnoahZero__Ame_no_Danshou_-_The_Penultimate_Truth",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Aldnoah.Zero: Ame no Danshou - The Penultimate Truth"
+            },
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/59843/AldnoahZero__Ame_no_Danshou_-_The_Penultimate_Truth/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": true
+        },
+        {
+            "entry": {
+                "mal_id": 60666,
+                "url": "https://myanimelist.net/anime/60666/AldnoahZero_Re_",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Aldnoah.Zero (Re+)"
+            },
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/60666/AldnoahZero_Re_/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": true
+        },
+        {
+            "entry": {
+                "mal_id": 22729,
+                "url": "https://myanimelist.net/anime/22729/AldnoahZero",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/7/60263.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/7/60263t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/7/60263l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/7/60263.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/7/60263t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/7/60263l.webp"
+                    }
+                },
+                "title": "Aldnoah.Zero"
+            },
+            "episodes": [
+                {
+                    "mal_id": 12,
+                    "url": "https://myanimelist.net/anime/22729/AldnoahZero/episode/12",
+                    "title": "Episode 12",
+                    "premium": false
+                },
+                {
+                    "mal_id": 11,
+                    "url": "https://myanimelist.net/anime/22729/AldnoahZero/episode/11",
+                    "title": "Episode 11",
+                    "premium": false
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 54863,
+                "url": "https://myanimelist.net/anime/54863/Trigun_Stargaze",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1219/154541.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1219/154541t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1219/154541l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1219/154541.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1219/154541t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1219/154541l.webp"
+                    }
+                },
+                "title": "Trigun Stargaze"
+            },
+            "episodes": [
+                {
+                    "mal_id": 14,
+                    "url": "https://myanimelist.net/anime/54863/Trigun_Stargaze/episode/14",
+                    "title": "Episode 14",
+                    "premium": true
+                },
+                {
+                    "mal_id": 13,
+                    "url": "https://myanimelist.net/anime/54863/Trigun_Stargaze/episode/13",
+                    "title": "Episode 13",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 61333,
+                "url": "https://myanimelist.net/anime/61333/Ao_no_Miburo__Serizawa_Ansatsu-hen",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Ao no Miburo: Serizawa Ansatsu-hen"
+            },
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/61333/Ao_no_Miburo__Serizawa_Ansatsu-hen/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": true
+        },
+        {
+            "entry": {
+                "mal_id": 32281,
+                "url": "https://myanimelist.net/anime/32281/Kimi_no_Na_wa",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Kimi no Na wa."
+            },
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/32281/Kimi_no_Na_wa/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": true
+        },
+        {
+            "entry": {
+                "mal_id": 9760,
+                "url": "https://myanimelist.net/anime/9760/Hoshi_wo_Ou_Kodomo",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Hoshi wo Ou Kodomo"
+            },
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/9760/Hoshi_wo_Ou_Kodomo/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": true
+        },
+        {
+            "entry": {
+                "mal_id": 433,
+                "url": "https://myanimelist.net/anime/433/Kumo_no_Mukou_Yakusoku_no_Basho",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Kumo no Mukou, Yakusoku no Basho"
+            },
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/433/Kumo_no_Mukou_Yakusoku_no_Basho/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": true
+        },
+        {
+            "entry": {
+                "mal_id": 59062,
+                "url": "https://myanimelist.net/anime/59062/Gachiakuta",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1682/150432.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1682/150432t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1682/150432l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1682/150432.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1682/150432t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1682/150432l.webp"
+                    }
+                },
+                "title": "Gachiakuta"
+            },
+            "episodes": [
+                {
+                    "mal_id": 14,
+                    "url": "https://myanimelist.net/anime/59062/Gachiakuta/episode/14",
+                    "title": "Episode 14",
+                    "premium": true
+                },
+                {
+                    "mal_id": 13,
+                    "url": "https://myanimelist.net/anime/59062/Gachiakuta/episode/13",
+                    "title": "Episode 13",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 54857,
+                "url": "https://myanimelist.net/anime/54857/Re_Zero_kara_Hajimeru_Isekai_Seikatsu_3rd_Season",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1706/144725.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1706/144725t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1706/144725l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1706/144725.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1706/144725t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1706/144725l.webp"
+                    }
+                },
+                "title": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season"
+            },
+            "episodes": [
+                {
+                    "mal_id": 16,
+                    "url": "https://myanimelist.net/anime/54857/Re_Zero_kara_Hajimeru_Isekai_Seikatsu_3rd_Season/episode/16",
+                    "title": "Episode 16",
+                    "premium": true
+                },
+                {
+                    "mal_id": 15,
+                    "url": "https://myanimelist.net/anime/54857/Re_Zero_kara_Hajimeru_Isekai_Seikatsu_3rd_Season/episode/15",
+                    "title": "Episode 15",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 55748,
+                "url": "https://myanimelist.net/anime/55748/Love_Live_Nijigasaki_Gakuen_School_Idol_Doukoukai__Kanketsu-hen",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1476/142232.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1476/142232t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1476/142232l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1476/142232.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1476/142232t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1476/142232l.webp"
+                    }
+                },
+                "title": "Love Live! Nijigasaki Gakuen School Idol Doukoukai: Kanketsu-hen"
+            },
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/55748/Love_Live_Nijigasaki_Gakuen_School_Idol_Doukoukai__Kanketsu-hen/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 61851,
+                "url": "https://myanimelist.net/anime/61851/Isekai_Quartet_3",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1044/152103.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1044/152103t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1044/152103l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1044/152103.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1044/152103t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1044/152103l.webp"
+                    }
+                },
+                "title": "Isekai Quartet 3"
+            },
+            "episodes": [
+                {
+                    "mal_id": 3,
+                    "url": "https://myanimelist.net/anime/61851/Isekai_Quartet_3/episode/3",
+                    "title": "Episode 3",
+                    "premium": true
+                },
+                {
+                    "mal_id": 2,
+                    "url": "https://myanimelist.net/anime/61851/Isekai_Quartet_3/episode/2",
+                    "title": "Episode 2",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 57433,
+                "url": "https://myanimelist.net/anime/57433/Seishun_Buta_Yarou_wa_Santa_Claus_no_Yume_wo_Minai",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1823/149858.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1823/149858t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1823/149858l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1823/149858.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1823/149858t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1823/149858l.webp"
+                    }
+                },
+                "title": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai"
+            },
+            "episodes": [
+                {
+                    "mal_id": 13,
+                    "url": "https://myanimelist.net/anime/57433/Seishun_Buta_Yarou_wa_Santa_Claus_no_Yume_wo_Minai/episode/13",
+                    "title": "Episode 13",
+                    "premium": true
+                },
+                {
+                    "mal_id": 12,
+                    "url": "https://myanimelist.net/anime/57433/Seishun_Buta_Yarou_wa_Santa_Claus_no_Yume_wo_Minai/episode/12",
+                    "title": "Episode 12",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 60098,
+                "url": "https://myanimelist.net/anime/60098/Boku_no_Hero_Academia__Final_Season",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1959/151055.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1959/151055t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1959/151055l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1959/151055.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1959/151055t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1959/151055l.webp"
+                    }
+                },
+                "title": "Boku no Hero Academia: Final Season"
+            },
+            "episodes": [
+                {
+                    "mal_id": 3,
+                    "url": "https://myanimelist.net/anime/60098/Boku_no_Hero_Academia__Final_Season/episode/3",
+                    "title": "Episode 3",
+                    "premium": true
+                },
+                {
+                    "mal_id": 2,
+                    "url": "https://myanimelist.net/anime/60098/Boku_no_Hero_Academia__Final_Season/episode/2",
+                    "title": "Episode 2",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 56693,
+                "url": "https://myanimelist.net/anime/56693/Watari-kun_no_xx_ga_Houkai_Sunzen",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1502/150545.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1502/150545t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1502/150545l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1502/150545.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1502/150545t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1502/150545l.webp"
+                    }
+                },
+                "title": "Watari-kun no xx ga Houkai Sunzen"
+            },
+            "episodes": [
+                {
+                    "mal_id": 17,
+                    "url": "https://myanimelist.net/anime/56693/Watari-kun_no_xx_ga_Houkai_Sunzen/episode/17",
+                    "title": "Episode 17",
+                    "premium": true
+                },
+                {
+                    "mal_id": 16,
+                    "url": "https://myanimelist.net/anime/56693/Watari-kun_no_xx_ga_Houkai_Sunzen/episode/16",
+                    "title": "Episode 16",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 58772,
+                "url": "https://myanimelist.net/anime/58772/Kakuriyo_no_Yadomeshi_Ni",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1619/151364.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1619/151364t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1619/151364l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1619/151364.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1619/151364t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1619/151364l.webp"
+                    }
+                },
+                "title": "Kakuriyo no Yadomeshi Ni"
+            },
+            "episodes": [
+                {
+                    "mal_id": 4,
+                    "url": "https://myanimelist.net/anime/58772/Kakuriyo_no_Yadomeshi_Ni/episode/4",
+                    "title": "Episode 4",
+                    "premium": true
+                },
+                {
+                    "mal_id": 3,
+                    "url": "https://myanimelist.net/anime/58772/Kakuriyo_no_Yadomeshi_Ni/episode/3",
+                    "title": "Episode 3",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 59027,
+                "url": "https://myanimelist.net/anime/59027/Spy_x_Family_Season_3",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1697/151793.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1697/151793t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1697/151793l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1697/151793.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1697/151793t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1697/151793l.webp"
+                    }
+                },
+                "title": "Spy x Family Season 3"
+            },
+            "episodes": [
+                {
+                    "mal_id": 3,
+                    "url": "https://myanimelist.net/anime/59027/Spy_x_Family_Season_3/episode/3",
+                    "title": "Episode 3",
+                    "premium": true
+                },
+                {
+                    "mal_id": 2,
+                    "url": "https://myanimelist.net/anime/59027/Spy_x_Family_Season_3/episode/2",
+                    "title": "Episode 2",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 59662,
+                "url": "https://myanimelist.net/anime/59662/Long_Zu_II__Daowangzhe_Zhi_Tong",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1577/147273.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1577/147273t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1577/147273l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1577/147273.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1577/147273t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1577/147273l.webp"
+                    }
+                },
+                "title": "Long Zu II: Daowangzhe Zhi Tong"
+            },
+            "episodes": [
+                {
+                    "mal_id": 3,
+                    "url": "https://myanimelist.net/anime/59662/Long_Zu_II__Daowangzhe_Zhi_Tong/episode/3",
+                    "title": "Episode 3",
+                    "premium": true
+                },
+                {
+                    "mal_id": 2,
+                    "url": "https://myanimelist.net/anime/59662/Long_Zu_II__Daowangzhe_Zhi_Tong/episode/2",
+                    "title": "Episode 2",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 57025,
+                "url": "https://myanimelist.net/anime/57025/Tondemo_Skill_de_Isekai_Hourou_Meshi_2",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1206/151772.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1206/151772t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1206/151772l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1206/151772.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1206/151772t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1206/151772l.webp"
+                    }
+                },
+                "title": "Tondemo Skill de Isekai Hourou Meshi 2"
+            },
+            "episodes": [
+                {
+                    "mal_id": 2,
+                    "url": "https://myanimelist.net/anime/57025/Tondemo_Skill_de_Isekai_Hourou_Meshi_2/episode/2",
+                    "title": "Episode 2",
+                    "premium": true
+                },
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/57025/Tondemo_Skill_de_Isekai_Hourou_Meshi_2/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 59689,
+                "url": "https://myanimelist.net/anime/59689/Game_Center_Shoujo_to_Ibunka_Kouryuu",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1943/149719.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1943/149719t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1943/149719l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1943/149719.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1943/149719t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1943/149719l.webp"
+                    }
+                },
+                "title": "Game Center Shoujo to Ibunka Kouryuu"
+            },
+            "episodes": [
+                {
+                    "mal_id": 12,
+                    "url": "https://myanimelist.net/anime/59689/Game_Center_Shoujo_to_Ibunka_Kouryuu/episode/12",
+                    "title": "Episode 12",
+                    "premium": true
+                },
+                {
+                    "mal_id": 11,
+                    "url": "https://myanimelist.net/anime/59689/Game_Center_Shoujo_to_Ibunka_Kouryuu/episode/11",
+                    "title": "Episode 11",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 59597,
+                "url": "https://myanimelist.net/anime/59597/Witch_Watch",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1526/150689.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1526/150689t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1526/150689l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1526/150689.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1526/150689t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1526/150689l.webp"
+                    }
+                },
+                "title": "Witch Watch"
+            },
+            "episodes": [
+                {
+                    "mal_id": 9,
+                    "url": "https://myanimelist.net/anime/59597/Witch_Watch/episode/9",
+                    "title": "Episode 9",
+                    "premium": true
+                },
+                {
+                    "mal_id": 8,
+                    "url": "https://myanimelist.net/anime/59597/Witch_Watch/episode/8",
+                    "title": "Episode 8",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 60334,
+                "url": "https://myanimelist.net/anime/60334/Anne_Shirley",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1564/150049.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1564/150049t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1564/150049l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1564/150049.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1564/150049t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1564/150049l.webp"
+                    }
+                },
+                "title": "Anne Shirley"
+            },
+            "episodes": [
+                {
+                    "mal_id": 24,
+                    "url": "https://myanimelist.net/anime/60334/Anne_Shirley/episode/24",
+                    "title": "Episode 24",
+                    "premium": true
+                },
+                {
+                    "mal_id": 23,
+                    "url": "https://myanimelist.net/anime/60334/Anne_Shirley/episode/23",
+                    "title": "Episode 23",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 54703,
+                "url": "https://myanimelist.net/anime/54703/Fumetsu_no_Anata_e_Season_3",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1140/152364.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1140/152364t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1140/152364l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1140/152364.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1140/152364t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1140/152364l.webp"
+                    }
+                },
+                "title": "Fumetsu no Anata e Season 3"
+            },
+            "episodes": [
+                {
+                    "mal_id": 2,
+                    "url": "https://myanimelist.net/anime/54703/Fumetsu_no_Anata_e_Season_3/episode/2",
+                    "title": "Episode 2",
+                    "premium": true
+                },
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/54703/Fumetsu_no_Anata_e_Season_3/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 61517,
+                "url": "https://myanimelist.net/anime/61517/Kingdom_6th_Season",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1282/151476.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1282/151476t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1282/151476l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1282/151476.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1282/151476t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1282/151476l.webp"
+                    }
+                },
+                "title": "Kingdom 6th Season"
+            },
+            "episodes": [
+                {
+                    "mal_id": 2,
+                    "url": "https://myanimelist.net/anime/61517/Kingdom_6th_Season/episode/2",
+                    "title": "Episode 2",
+                    "premium": true
+                },
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/61517/Kingdom_6th_Season/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 60619,
+                "url": "https://myanimelist.net/anime/60619/Nageki_no_Bourei_wa_Intai_shitai_Part_2",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1651/152063.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1651/152063t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1651/152063l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1651/152063.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1651/152063t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1651/152063l.webp"
+                    }
+                },
+                "title": "Nageki no Bourei wa Intai shitai Part 2"
+            },
+            "episodes": [
+                {
+                    "mal_id": 2,
+                    "url": "https://myanimelist.net/anime/60619/Nageki_no_Bourei_wa_Intai_shitai_Part_2/episode/2",
+                    "title": "Episode 2",
+                    "premium": true
+                },
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/60619/Nageki_no_Bourei_wa_Intai_shitai_Part_2/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 235,
+                "url": "https://myanimelist.net/anime/235/Meitantei_Conan",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Meitantei Conan"
+            },
+            "episodes": [
+                {
+                    "mal_id": 1178,
+                    "url": "https://myanimelist.net/anime/235/Meitantei_Conan/episode/1178",
+                    "title": "Episode 1178",
+                    "premium": true
+                },
+                {
+                    "mal_id": 1177,
+                    "url": "https://myanimelist.net/anime/235/Meitantei_Conan/episode/1177",
+                    "title": "Episode 1177",
+                    "premium": true
+                }
+            ],
+            "region_locked": true
+        },
+        {
+            "entry": {
+                "mal_id": 58811,
+                "url": "https://myanimelist.net/anime/58811/Tougen_Anki",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1474/150666.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1474/150666t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1474/150666l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1474/150666.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1474/150666t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1474/150666l.webp"
+                    }
+                },
+                "title": "Tougen Anki"
+            },
+            "episodes": [
+                {
+                    "mal_id": 14,
+                    "url": "https://myanimelist.net/anime/58811/Tougen_Anki/episode/14",
+                    "title": "Episode 14",
+                    "premium": true
+                },
+                {
+                    "mal_id": 13,
+                    "url": "https://myanimelist.net/anime/58811/Tougen_Anki/episode/13",
+                    "title": "Episode 13",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 60732,
+                "url": "https://myanimelist.net/anime/60732/Mizu_Zokusei_no_Mahoutsukai",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1383/151072.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1383/151072t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1383/151072l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1383/151072.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1383/151072t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1383/151072l.webp"
+                    }
+                },
+                "title": "Mizu Zokusei no Mahoutsukai"
+            },
+            "episodes": [
+                {
+                    "mal_id": 12,
+                    "url": "https://myanimelist.net/anime/60732/Mizu_Zokusei_no_Mahoutsukai/episode/12",
+                    "title": "Episode 12",
+                    "premium": true
+                },
+                {
+                    "mal_id": 11,
+                    "url": "https://myanimelist.net/anime/60732/Mizu_Zokusei_no_Mahoutsukai/episode/11",
+                    "title": "Episode 11",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 60665,
+                "url": "https://myanimelist.net/anime/60665/Futari_Solo_Camp",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1904/150649.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1904/150649t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1904/150649l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1904/150649.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1904/150649t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1904/150649l.webp"
+                    }
+                },
+                "title": "Futari Solo Camp"
+            },
+            "episodes": [
+                {
+                    "mal_id": 14,
+                    "url": "https://myanimelist.net/anime/60665/Futari_Solo_Camp/episode/14",
+                    "title": "Episode 14",
+                    "premium": true
+                },
+                {
+                    "mal_id": 13,
+                    "url": "https://myanimelist.net/anime/60665/Futari_Solo_Camp/episode/13",
+                    "title": "Episode 13",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 59459,
+                "url": "https://myanimelist.net/anime/59459/Silent_Witch__Chinmoku_no_Majo_no_Kakushigoto",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1669/149732.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1669/149732t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1669/149732l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1669/149732.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1669/149732t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1669/149732l.webp"
+                    }
+                },
+                "title": "Silent Witch: Chinmoku no Majo no Kakushigoto"
+            },
+            "episodes": [
+                {
+                    "mal_id": 13,
+                    "url": "https://myanimelist.net/anime/59459/Silent_Witch__Chinmoku_no_Majo_no_Kakushigoto/episode/13",
+                    "title": "Episode 13",
+                    "premium": true
+                },
+                {
+                    "mal_id": 12,
+                    "url": "https://myanimelist.net/anime/59459/Silent_Witch__Chinmoku_no_Majo_no_Kakushigoto/episode/12",
+                    "title": "Episode 12",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 39586,
+                "url": "https://myanimelist.net/anime/39586/Hataraku_Saibou",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1726/114552.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1726/114552t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1726/114552l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1726/114552.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1726/114552t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1726/114552l.webp"
+                    }
+                },
+                "title": "Hataraku Saibou!!"
+            },
+            "episodes": [
+                {
+                    "mal_id": 8,
+                    "url": "https://myanimelist.net/anime/39586/Hataraku_Saibou/episode/8",
+                    "title": "Episode 8",
+                    "premium": false
+                },
+                {
+                    "mal_id": 7,
+                    "url": "https://myanimelist.net/anime/39586/Hataraku_Saibou/episode/7",
+                    "title": "Episode 7",
+                    "premium": false
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 59730,
+                "url": "https://myanimelist.net/anime/59730/A-Rank_Party_wo_Ridatsu_shita_Ore_wa_Moto_Oshiego-tachi_to_Meikyuu_Shinbu_wo_Mezasu",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1897/149800.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1897/149800t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1897/149800l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1897/149800.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1897/149800t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1897/149800l.webp"
+                    }
+                },
+                "title": "A-Rank Party wo Ridatsu shita Ore wa, Moto Oshiego-tachi to Meikyuu Shinbu wo Mezasu."
+            },
+            "episodes": [
+                {
+                    "mal_id": 3,
+                    "url": "https://myanimelist.net/anime/59730/A-Rank_Party_wo_Ridatsu_shita_Ore_wa_Moto_Oshiego-tachi_to_Meikyuu_Shinbu_wo_Mezasu/episode/3",
+                    "title": "Episode 3",
+                    "premium": false
+                },
+                {
+                    "mal_id": 2,
+                    "url": "https://myanimelist.net/anime/59730/A-Rank_Party_wo_Ridatsu_shita_Ore_wa_Moto_Oshiego-tachi_to_Meikyuu_Shinbu_wo_Mezasu/episode/2",
+                    "title": "Episode 2",
+                    "premium": false
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 55809,
+                "url": "https://myanimelist.net/anime/55809/Xian_Ni",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1289/149708.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1289/149708t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1289/149708l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1289/149708.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1289/149708t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1289/149708l.webp"
+                    }
+                },
+                "title": "Xian Ni"
+            },
+            "episodes": [
+                {
+                    "mal_id": 24,
+                    "url": "https://myanimelist.net/anime/55809/Xian_Ni/episode/24",
+                    "title": "Episode 24",
+                    "premium": true
+                },
+                {
+                    "mal_id": 23,
+                    "url": "https://myanimelist.net/anime/55809/Xian_Ni/episode/23",
+                    "title": "Episode 23",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        },
+        {
+            "entry": {
+                "mal_id": 52684,
+                "url": "https://myanimelist.net/anime/52684/Shen_Yin_Wangzuo_2nd_Season",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://myanimelist.net/images/anime/1897/150028.jpg",
+                        "small_image_url": "https://myanimelist.net/images/anime/1897/150028t.jpg",
+                        "large_image_url": "https://myanimelist.net/images/anime/1897/150028l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://myanimelist.net/images/anime/1897/150028.webp",
+                        "small_image_url": "https://myanimelist.net/images/anime/1897/150028t.webp",
+                        "large_image_url": "https://myanimelist.net/images/anime/1897/150028l.webp"
+                    }
+                },
+                "title": "Shen Yin Wangzuo 2nd Season"
+            },
+            "episodes": [
+                {
+                    "mal_id": 52,
+                    "url": "https://myanimelist.net/anime/52684/Shen_Yin_Wangzuo_2nd_Season/episode/52",
+                    "title": "Episode 52",
+                    "premium": true
+                },
+                {
+                    "mal_id": 51,
+                    "url": "https://myanimelist.net/anime/52684/Shen_Yin_Wangzuo_2nd_Season/episode/51",
+                    "title": "Episode 51",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
+        }
+    ]
+}

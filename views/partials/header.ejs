@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,60 +8,69 @@
     <link rel="stylesheet" href="styles/content.css">
     <link rel="stylesheet" href="styles/<%= pageCss %>">
 </head>
+
 <body>
     <nav class="navbar">
-        <div class="logo"><a href="/"><img src="images/logo.jpg" alt="Cute logo"></a></div></div>
-        <ul class="menu">
-            <li><a href="/">Trang chủ</a></li>
-            <li class="dropdown">
-                <a href="#">Thể loại</a>
-                <ul class="dropdown-menu">
-                    <li><a href="/genre-search?genreId=1">Hành động</a></li>
-                    <li><a href="/genre-search?genreId=2">Adventure</a></li>
-                    <li><a href="/genre-search?genreId=5">Avant Garde</a></li>
-                    <li><a href="/genre-search?genreId=46">Award Winning</a></li>
-                    <li><a href="/genre-search?genreId=28">Boys Love</a></li>
-                    <li><a href="/genre-search?genreId=4">Comedy</a></li>
-                    <li><a href="/genre-search?genreId=8">Drama</a></li>
-                    <li><a href="/genre-search?genreId=10">Fantasy</a></li>
-                    <li><a href="/genre-search?genreId=26">Girls Love</a></li>
-                    <li><a href="/genre-search?genreId=47">Gourmet</a></li>
-                    <li><a href="/genre-search?genreId=14">Horror</a></li>
-                    <li><a href="/genre-search?genreId=7">Mystery</a></li>
-                    <li><a href="/genre-search?genreId=22">Romance</a></li>
-                    <li><a href="/genre-search?genreId=24">Sci-Fi</a></li>
-                    <li><a href="/genre-search?genreId=36">Slice of Life</a></li>
-                    <li><a href="/genre-search?genreId=30">Sports</a></li>
-                    <li><a href="/genre-search?genreId=37">Supernatural</a></li>
-                    <li><a href="/genre-search?genreId=41">Suspense</a></li>
-                </ul>
+        <div class="logo"><a href="/"><img src="path_to_logo.png" alt="Meo meo meo"></a> </div>
+        <ul class="nav-links">
+            <li><a href="/" class="active">TRANG CHỦ</a></li>
+            <li class="has-dropdown"><a href="#">THỂ LOẠI <i class="arrow-down"></i></a>
+                <div class="dropdown-content">
+                    <ul class="genre-grid">
+                        <li><a href="/genre-search?genreId=1">Action</a></li>
+                        <li><a href="/genre-search?genreId=2">Adventure</a></li>
+                        <li><a href="/genre-search?genreId=5">Avant Garde</a></li>
+                        <li><a href="/genre-search?genreId=46">Award Winning</a></li>
+                        <li><a href="/genre-search?genreId=28">Boys Love</a></li>
+                        <li><a href="/genre-search?genreId=4">Comedy</a></li>
+                        <li><a href="/genre-search?genreId=8">Drama</a></li>
+                        <li><a href="/genre-search?genreId=10">Fantasy</a></li>
+                        <li><a href="/genre-search?genreId=26">Girls Love</a></li>
+                        <li><a href="/genre-search?genreId=47">Gourmet</a></li>
+                        <li><a href="/genre-search?genreId=14">Horror</a></li>
+                        <li><a href="/genre-search?genreId=7">Mystery</a></li>
+                        <li><a href="/genre-search?genreId=22">Romance</a></li>
+                        <li><a href="/genre-search?genreId=24">Sci-Fi</a></li>
+                        <li><a href="/genre-search?genreId=36">Slice of Life</a></li>
+                        <li><a href="/genre-search?genreId=30">Sports</a></li>
+                        <li><a href="/genre-search?genreId=37">Supernatural</a></li>
+                        <li><a href="/genre-search?genreId=41">Suspense</a></li>
+                    </ul>
+                </div>
             </li>
-            <li class="dropdown">
-                <a href="#">Season</a>
-                <ul class="dropdown-menu">
-                    <li><a href="/season-search?year=2026&season=winter">Winter 2026</a></li>
-                    <li><a href="/season-search?year=2026&season=spring">Spring 2026</a></li>
-                    <li><a href="/season-search?year=2026&season=summer">Summer 2026</a></li>
-                    <li><a href="/season-search?year=2026&season=fall">Fall 2026</a></li>
-                    <li><a href="/season-search?year=2025&season=winter">Winter 2025</a></li>
-                    <li><a href="/season-search?year=2025&season=spring">Spring 2025</a></li>
-                    <li><a href="/season-search?year=2025&season=summer">Summer 2025</a></li>
-                    <li><a href="/season-search?year=2025&season=fall">Fall 2025</a></li>
-                    <li><a href="/season-search?year=2024&season=winter">Winter 2024</a></li>
-                    <li><a href="/season-search?year=2024&season=spring">Spring 2024</a></li>
-                    <li><a href="/season-search?year=2024&season=summer">Summer 2024</a></li>
-                    <li><a href="/season-search?year=2024&season=fall">Fall 2024</a></li>
-                    <li><a href="/season-search?year=2023&season=winter">Winter 2023</a></li>
-                    <li><a href="/season-search?year=2023&season=spring">Spring 2023</a></li>
-                    <li><a href="/season-search?year=2023&season=summer">Summer 2023</a></li>
-                    <li><a href="/season-search?year=2023&season=fall">Fall 2023</a></li>
-                    <li><a href="/season-search?year=2022&season=winter">Winter 2022</a></li>
-                    <li><a href="/season-search?year=2022&season=spring">Spring 2022</a></li>
-                </ul>
+            <li class="has-dropdown"><a href="#">SEASON <i class="arrow-down"></i></a>
+                <div class="dropdown-content">
+                    <ul class="season-grid">
+                        <li><a href="/season-search?year=2026&season=winter">Winter 2026</a></li>
+                        <li><a href="/season-search?year=2026&season=spring">Spring 2026</a></li>
+                        <li><a href="/season-search?year=2026&season=summer">Summer 2026</a></li>
+                        <li><a href="/season-search?year=2026&season=fall">Fall 2026</a></li>
+                        <li><a href="/season-search?year=2025&season=winter">Winter 2025</a></li>
+                        <li><a href="/season-search?year=2025&season=spring">Spring 2025</a></li>
+                        <li><a href="/season-search?year=2025&season=summer">Summer 2025</a></li>
+                        <li><a href="/season-search?year=2025&season=fall">Fall 2025</a></li>
+                        <li><a href="/season-search?year=2024&season=winter">Winter 2024</a></li>
+                        <li><a href="/season-search?year=2024&season=spring">Spring 2024</a></li>
+                        <li><a href="/season-search?year=2024&season=summer">Summer 2024</a></li>
+                        <li><a href="/season-search?year=2024&season=fall">Fall 2024</a></li>
+                        <li><a href="/season-search?year=2023&season=winter">Winter 2023</a></li>
+                        <li><a href="/season-search?year=2023&season=spring">Spring 2023</a></li>
+                        <li><a href="/season-search?year=2023&season=summer">Summer 2023</a></li>
+                        <li><a href="/season-search?year=2023&season=fall">Fall 2023</a></li>
+                        <li><a href="/season-search?year=2022&season=winter">Winter 2022</a></li>
+                        <li><a href="/season-search?year=2022&season=spring">Spring 2022</a></li>
+                    </ul>
+                </div>
             </li>
+            <li><a href="#">THƯ VIỆN</a></li>
+            <li><a href="#">LỊCH CHIẾU</a></li>
         </ul>
-        <div class="nav-auth">
-            <a href="/login" class="btn-login">Đăng nhập</a>
+        <div class="nav-actions">
+            <div class="search-box"> <input type="text" placeholder="Tìm: tên tiếng nhật, anh, việt"> </div> <a
+                href="sign-in.html" class="btn-login">Đăng nhập</a>
         </div>
     </nav>
-    <main>
+    <div class="big-container">
+        <main class="main-container">
+            <div class="second-main-container">
+                <div class="content-wraper">

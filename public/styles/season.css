@@ -1,6 +1,6 @@
 /* anime-container style */
 .cards-container {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -10,6 +10,7 @@
 }
 
 .anime-card {
+    width: 90%;
     display: flex;
     flex-direction: column;
     background: #1b1b1b;
