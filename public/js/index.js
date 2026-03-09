@@ -13,3 +13,22 @@ tabs.forEach(tab => {
         target.classList.add("active");
     });
 });
+const carouselContainers = document.querySelectorAll(".carousel-container");
+
+carouselContainers.forEach(container => {
+    const carousel = container.querySelector(".carousel");
+    const prevBtn = container.querySelector(".prev");
+    const nextBtn = container.querySelector(".next");
+    const card = container.querySelector('.card');
+    if (!card) return; 
+
+    prevBtn.onclick = () => {
+        const scrollAmount = card.offsetWidth + 10; 
+        carousel.scrollBy({left: -scrollAmount, behavior: "smooth"});
+    };
+
+    nextBtn.onclick = () => {
+        const scrollAmount = card.offsetWidth + 10;
+        carousel.scrollBy({left: scrollAmount, behavior: "smooth"});
+    };
+});

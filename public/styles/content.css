@@ -8,7 +8,7 @@ body{
 }
 .big-container{
     background-color: #0f1416;
-    max-width: 85vw;
+    max-width: 87vw;
     margin: 5px auto;
     padding: 20px;
     border-radius: 5px;
@@ -157,6 +157,7 @@ main{
     flex: 1;
     display: flex;
     flex-direction: column;
+    min-width: 0;
 }
 
 /*sidebar styles*/
