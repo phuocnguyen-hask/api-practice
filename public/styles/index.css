@@ -80,9 +80,9 @@
 }
 .carousel-container{
     width: 100%;
-    margin: 5px auto;
+    margin: 5px auto 20px auto;
     border-radius: 5px;
-    background-color: grey;
+    background-color: #222831;
     position: relative;
 }
 .carousel-container h3{
@@ -118,6 +118,7 @@
     display: flex;
     gap: 10px;
     overflow: auto;
+    margin: 10px;
 }
 .carousel::-webkit-scrollbar{
     display: none;
