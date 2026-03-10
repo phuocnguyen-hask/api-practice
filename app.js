@@ -9,6 +9,7 @@ import hotOvas from "./public/data/hot-ova.json" with {type: "json"};
 const app = express();
 const port = 3000;
 const API_URL = "https://api.jikan.moe/v4/";
+const KITSU_BASE = "https://kitsu.io/api/edge"
 const allRecentAnimes = recentAnimes.data;
 const allHotTv = hotTvs.data;
 const allHotMovies = hotMovies.data;
@@ -66,6 +67,54 @@ app.get("/random", async (req, res) => {
     const result = (await axios.get(API_URL + `random/anime`)).data;
     const randomAnime = result.data;
     res.render("detail.ejs", {pageCss: "detail.css", data: randomAnime});
+})
+
+app.get("/search", async (req, res) => {
+    const query = req.query.query;
+    const params = new URLSearchParams({
+        'filter[text]': query,
+        'include': 'genres',
+        'page[limit]': 10
+    });
+    const apiUrl = KITSU_BASE + `/anime?${params.toString()}`;
+    try{
+        const result = (await axios.get(apiUrl));
+        const json = result.data;
+
+        const animes = json.data;
+        const included = json.included;
+        const genresMap = {};
+        
+        if (included){
+            included.forEach(item =>{
+                if (item.type === "genres"){
+                    genresMap[item.id] = item.attributes.name;
+                }
+            })
+        }
+        const cleanAnimes = animes.map(anime => {
+            const genreIds = anime.relationships?.genres?.data?.map(g => g.id) || [];
+            const genresNames = genreIds.map(id => genresMap[id]);
+            console.log(genresNames);
+            return {id: anime.id,
+                title: anime.attributes.canonicalTitle,
+                title_english: anime.attributes.titles.en,
+                type: anime.attributes.subtype,
+                year: anime.attributes.startDate.slice(0, 4), // luu y o day !!!!!!!!
+                status: anime.attributes.status,
+                episodes: anime.attributes.episodeCount,
+                duration: anime.attributes.episodeLength,
+                posterImage: anime.attributes.posterImage?.small,
+                synopsis: anime.attributes.synopsis,
+                genres: genresNames,
+                score: anime.attributes.averageRating,
+                members: anime.attributes.userCount
+                };
+        })
+        res.render("search.ejs", {pageCss: "search.css", datas: cleanAnimes, query: query});
+    } catch (error) {
+        res.render("error.ejs", {pageCss: "error.css", error: error});
+    }
 })
 
 app.listen(port, () => {

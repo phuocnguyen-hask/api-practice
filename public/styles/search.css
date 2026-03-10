@@ -1,0 +1,117 @@
+/* anime-container style */
+.query{
+    text-align: center;
+    color: #e3dada;
+    font-size: 40px;
+}
+.cards-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #000;
+}
+
+.anime-card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: #1b1b1b;
+    color: #fff;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #333;
+}
+
+
+.card-header {
+    text-align: center;
+    padding: 15px 10px;
+    border-bottom: 1px solid #333;
+}
+.card-header a {
+    text-decoration: none;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #3b73af;
+}
+
+.card-header h4 {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #aaa;
+    font-weight: normal;
+}
+
+.info {
+    font-size: 12px;
+    color: #888;
+    margin: 8px 0;
+}
+
+.tags span {
+    background: #333;
+    font-size: 11px;
+    padding: 3px 6px;
+    border-radius: 3px;
+    color: #ccc;
+    margin: 0 2px;
+}
+
+.card-body {
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+}
+
+.poster {
+    width: 130px;
+    height: 185px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.description {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ccc;
+    height: 185px;
+    overflow-y: auto;
+}
+
+.description::-webkit-scrollbar {
+    width: 4px;
+}
+
+.description::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #222;
+    font-size: 13px;
+}
+
+.card-footer button {
+    background: #3b73af;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card-footer button:hover {
+    background: #2f5d8c;
+}

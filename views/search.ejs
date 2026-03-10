@@ -1,0 +1,41 @@
+<%- include("partials/header.ejs") %>
+<h3 class="query"> "Search for <%= query %>"</h3>
+<% if (locals.datas) {%>
+<div class="cards-container">
+  <% for (const data of datas){%>
+  <div class="anime-card">
+    <div class="card-header">
+      <a href="/detail?id=1"></a>
+      <h2><%= data.title %></h2>
+      <h4><%= data.title_english %></h4>
+      <div class="info">
+        <%= data.type %>,
+        <%= data.year %> |
+        <%= data.status %> |
+        <%= data.episodes%> eps,
+        <%= data.duration %> mins</div>
+      <div class="tags">
+        <% for (const genre of data.genres) {%>
+        <span><%= genre %></span>
+        <% } %>
+      </div>
+    </div>
+
+    <div class="card-body">
+      <a href="/detail?id=1>"><img class="poster" src=<%=data.posterImage %> alt="Poster"></a>
+      <div class="description">
+        <%= data.synopsis %>
+      </div>
+    </div>
+
+    <div class="card-footer">
+      <span class="rating">⭐ <%= data.score %></span>
+      <span class="members">👤 <%= new Intl.NumberFormat('en', { notation: 'compact' }).format(data.members) %></span>
+      <button>Add to My List</button>
+    </div>
+  </div>
+  <% } %>
+</div>
+<% } %>
+
+<%- include("partials/footer.ejs") %>

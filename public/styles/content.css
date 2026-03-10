@@ -52,6 +52,10 @@ body{
     align-items: center;
     gap: 20px;
 }
+.nav-actions button{
+    background-color: transparent;
+    border: none;
+}
 .search-box {
   position: relative;
 }

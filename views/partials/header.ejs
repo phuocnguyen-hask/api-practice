@@ -66,8 +66,19 @@
             <li><a href="#">SCHEDULE</a></li>
         </ul>
         <div class="nav-actions">
-            <div class="search-box"> <input type="text" placeholder="Tìm: tên tiếng nhật, anh, việt"> </div> <a
-                href="sign-in.html" class="btn-login">LOGIN</a>
+            <form action="/search" method="GET" class="search-box"> 
+                <input 
+                    type="text" 
+                    name="query" 
+                    placeholder="Search anime, manga, character, person, etc." 
+                    aria-label="Search content"
+                    required
+                > 
+                <button type="submit" class="btn-search" aria-label="Submit search">
+                    🔍
+                </button>
+            </form> 
+            <a href="sign-in.html" class="btn-login">LOGIN</a>
         </div>
     </nav>
     <div class="big-container">
