@@ -32,3 +32,40 @@ carouselContainers.forEach(container => {
         carousel.scrollBy({left: scrollAmount, behavior: "smooth"});
     };
 });
+const slides = document.querySelectorAll(".slide");
+const dots = document.querySelectorAll(".dot");
+
+let current = 0;
+
+function showSlide(index){
+
+    slides.forEach(slide => slide.classList.remove("active"));
+    dots.forEach(dot => dot.classList.remove("active"));
+
+    slides[index].classList.add("active");
+    dots[index].classList.add("active");
+
+    current = index;
+}
+
+/* click dot */
+
+dots.forEach((dot, i)=>{
+    dot.addEventListener("click", ()=>{
+        showSlide(i);
+    });
+});
+
+/* auto slide */
+
+setInterval(()=>{
+
+    let next = current + 1;
+
+    if(next >= slides.length){
+        next = 0;
+    }
+
+    showSlide(next);
+
+},5000);

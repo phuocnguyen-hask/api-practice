@@ -1,63 +1,124 @@
 <%- include("partials/header.ejs") %>
-    <div class="carousel-container">
-        <h3>Recent update animes</h3>
-        <button class="nav prev">◀</button>
-        <div class="carousel">
-            <% for (const anime of locals.recentAnimes) { %>
-                <div class="card">
-                    <img src=<%= anime.entry.images.jpg.image_url %> alt="">
-                    <div class="badge">
-                        <span class="rating">⭐ <br> 9.2</span>
-                        <span class="episode">Episode <br> <%= anime.episodes[0].title.at(-1) %></span>
-                    </div>
-                </div>
-                <% } %>
-        </div>
-        <button class="nav next">▶</button>
+<div class="weekly-container">
+    <h3>Weekly Schedules</h3>
+    <div class="weekly-carousel">
+  <% locals.weeklyAnimes.forEach((anime, i) => { %>
+
+  <div class="slide <%= i === 0 ? 'active' : '' %>"
+       style="background-image:url('<%= anime.images?.jpg?.large_image_url || anime.images?.jpg?.image_url %>')">
+
+    <div class="overlay"></div>
+
+    <div class="content">
+
+      <h1><%= anime.title || "Unknown Title" %></h1>
+
+      <div class="meta">
+        <span>⭐ <%= anime.score || "N/A" %></span>
+
+        <span>
+          <%= anime.aired?.from ? anime.aired.from.slice(0,10) : "Unknown" %>
+        </span>
+
+        <span><%= anime.type || "Unknown" %></span>
+
+        <span class="badge">
+          <%= anime.episodes || "?" %> eps
+        </span>
+      </div>
+
+      <p class="synopsis">
+        <%= anime.synopsis || "No synopsis available." %>
+      </p>
+
+      <button class="watch">▶ Watch</button>
+
     </div>
-    <div class="carousel-container">
-        <h3>Hot TV</h3>
-        <button class="nav prev">◀</button>
-        <div class="carousel">
-            <% for (const anime of locals.hotTvs) { %>
-                <div class="card">
-                    <img src=<%= anime.images.jpg.image_url %> alt="">
-                    <div class="badge">
-                        <span class="rating">⭐ <br> <%= anime.score %></span>
-                    </div>
-                </div>
-                <% } %>
-        </div>
-        <button class="nav next">▶</button>
+
+  </div>
+
+  <% }) %>
+  <div class="dots">
+
+    <% locals.weeklyAnimes.forEach((anime, i) => { %>
+
+      <span class="dot <%= i === 0 ? 'active' : '' %>"></span>
+
+    <% }) %>
+
+  </div>
+
+</div>
+</div>
+
+
+<div class="carousel-container">
+  <h3>Recent update animes</h3>
+  <button class="nav prev">◀</button>
+  <div class="carousel">
+    <% for (const anime of locals.recentAnimes) { %>
+    <div class="card">
+      <img src=<%=anime.entry.images.jpg.image_url %> alt="">
+      <div class="badge">
+        <span class="rating">⭐ <br> 9.2</span>
+        <span class="episode">Episode <br>
+          <%= anime.episodes[0].title.at(-1) %>
+        </span>
+      </div>
     </div>
-    <div class="carousel-container">
-        <h3>Hot OVA</h3>
-        <button class="nav prev">◀</button>
-        <div class="carousel">
-            <% for (const anime of locals.hotOvas) { %>
-                <div class="card">
-                    <img src=<%= anime.images.jpg.image_url %> alt="">
-                    <div class="badge">
-                        <span class="rating">⭐ <br> <%= anime.score %></span>
-                    </div>
-                </div>
-                <% } %>
-        </div>
-        <button class="nav next">▶</button>
+    <% } %>
+  </div>
+  <button class="nav next">▶</button>
+</div>
+<div class="carousel-container">
+  <h3>Hot TV</h3>
+  <button class="nav prev">◀</button>
+  <div class="carousel">
+    <% for (const anime of locals.hotTvs) { %>
+    <div class="card">
+      <img src=<%=anime.images.jpg.image_url %> alt="">
+      <div class="badge">
+        <span class="rating">⭐ <br>
+          <%= anime.score %>
+        </span>
+      </div>
     </div>
-    <div class="carousel-container">
-        <h3>Hot Movie</h3>
-        <button class="nav prev">◀</button>
-        <div class="carousel">
-            <% for (const anime of locals.hotMovies) { %>
-                <div class="card">
-                    <img src=<%= anime.images.jpg.image_url %> alt="">
-                    <div class="badge">
-                        <span class="rating">⭐ <br> <%= anime.score %></span>
-                    </div>
-                </div>
-                <% } %>
-        </div>
-        <button class="nav next">▶</button>
+    <% } %>
+  </div>
+  <button class="nav next">▶</button>
+</div>
+<div class="carousel-container">
+  <h3>Hot OVA</h3>
+  <button class="nav prev">◀</button>
+  <div class="carousel">
+    <% for (const anime of locals.hotOvas) { %>
+    <div class="card">
+      <img src=<%=anime.images.jpg.image_url %> alt="">
+      <div class="badge">
+        <span class="rating">⭐ <br>
+          <%= anime.score %>
+        </span>
+      </div>
     </div>
-    <%- include("partials/footer.ejs") %>
+    <% } %>
+  </div>
+  <button class="nav next">▶</button>
+</div>
+<div class="carousel-container">
+  <h3>Hot Movie</h3>
+  <button class="nav prev">◀</button>
+  <div class="carousel">
+    <% for (const anime of locals.hotMovies) { %>
+    <div class="card">
+      <img src=<%=anime.images.jpg.image_url %> alt="">
+      <div class="badge">
+        <span class="rating">⭐ <br>
+          <%= anime.score %>
+        </span>
+      </div>
+    </div>
+    <% } %>
+  </div>
+  <button class="nav next">▶</button>
+</div>
+<%- include("partials/footer.ejs") %>

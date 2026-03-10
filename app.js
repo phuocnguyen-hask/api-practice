@@ -5,6 +5,7 @@ import recentAnimes from "./public/data/recent.json" with {type: "json"};
 import hotTvs from "./public/data/hot-tv.json" with {type: "json"};
 import hotMovies from "./public/data/hot-movie.json" with {type: "json"};
 import hotOvas from "./public/data/hot-ova.json" with {type: "json"};
+import weeklyAnimes from "./public/data/weekly.json" with {type: "json"};
 
 const app = express();
 const port = 3000;
@@ -13,6 +14,7 @@ const allRecentAnimes = recentAnimes.data;
 const allHotTv = hotTvs.data;
 const allHotMovies = hotMovies.data;
 const allHotOvas = hotOvas.data;
+const allWeeklyAnimes = weeklyAnimes.data;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use((req, res, next) => {
@@ -20,6 +22,7 @@ app.use((req, res, next) => {
     res.locals.hotTvs = allHotTv.slice(0, 10);
     res.locals.hotMovies = allHotMovies.slice(0, 10);
     res.locals.hotOvas = allHotOvas.slice(0, 10);
+    res.locals.weeklyAnimes = allWeeklyAnimes.slice(0, 7);
     next();
 });
 
