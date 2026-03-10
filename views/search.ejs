@@ -5,8 +5,10 @@
   <% for (const data of searchResults){%>
   <div class="anime-card">
     <div class="card-header">
-      <a href="/detail?id=<%= data.mal_id %>"></a>
-      <h2><%= data.title %></h2>
+      <a href="/detail?id=<%= data.mal_id %>">
+        <h2><%= data.title %></h2>
+      </a>
+      
       <h4><%= data.title_english %></h4>
       <div class="info">
         <%= data.type ? data.type : "unknown" %>,
@@ -25,7 +27,7 @@
     </div>
 
     <div class="card-body">
-      <a href="/detail?id=1>"><img class="poster" src=<%=data.images.jpg.image_url %> alt="Poster"></a>
+      <a href="/detail?id=1"><img class="poster" src=<%=data.images.jpg.image_url %> alt="Poster"></a>
       <div class="description">
         <%= data.synopsis %>
       </div>
