@@ -1,28 +1,31 @@
 <%- include("partials/header.ejs") %>
 <h3 class="query"> "Search for <%= query %>"</h3>
-<% if (locals.datas) {%>
+<% if (locals.searchResults) {%>
 <div class="cards-container">
-  <% for (const data of datas){%>
+  <% for (const data of searchResults){%>
   <div class="anime-card">
     <div class="card-header">
-      <a href="/detail?id=1"></a>
+      <a href="/detail?id=<%= data.mal_id %>"></a>
       <h2><%= data.title %></h2>
       <h4><%= data.title_english %></h4>
       <div class="info">
-        <%= data.type %>,
-        <%= data.year %> |
-        <%= data.status %> |
-        <%= data.episodes%> eps,
-        <%= data.duration %> mins</div>
+        <%= data.type ? data.type : "unknown" %>,
+        <%= data.aired.from ? data.aired.from.slice(0, 4) : "unknown" %> |
+        <%= data.status ? data.status : "unknown" %> |
+        <%= data.episodes ? data.episodes : "unknown" %> eps,
+        <%= data.duration ? data.duration : "unknown" %></div>
       <div class="tags">
+        <% if (! data.genres) {%>
+        <span>No genres</span>
+        <% } else {%>
         <% for (const genre of data.genres) {%>
-        <span><%= genre %></span>
-        <% } %>
+        <span><%= genre.name %></span>
+        <% } }%>
       </div>
     </div>
 
     <div class="card-body">
-      <a href="/detail?id=1>"><img class="poster" src=<%=data.posterImage %> alt="Poster"></a>
+      <a href="/detail?id=1>"><img class="poster" src=<%=data.images.jpg.image_url %> alt="Poster"></a>
       <div class="description">
         <%= data.synopsis %>
       </div>
