@@ -1,6 +1,7 @@
 import axios from "axios";
 import express from "express";
 import bodyParser from "body-parser";
+import ollama from "ollama";
 import recentAnimes from "./public/data/recent.json" with {type: "json"};
 import hotTvs from "./public/data/hot-tv.json" with {type: "json"};
 import hotMovies from "./public/data/hot-movie.json" with {type: "json"};
@@ -81,6 +82,35 @@ app.get("/search", async (req, res) => {
     } catch (error) {
         res.render("error.ejs", {pageCss: "error.css", error: error});
     }
+});
+
+app.post("/chat", async (req, res) => {
+
+  const message = req.body.message;
+
+  try {
+
+    const response = await ollama.chat({
+      model: "animehub",
+      messages: [
+        { role: "user", content: message }
+      ]
+    });
+
+    res.json({
+      reply: response.message.content
+    });
+
+  } catch (error) {
+
+    console.log(error);
+
+    res.json({
+      reply: "AI error"
+    });
+
+  }
+
 });
 
 app.listen(port, () => {

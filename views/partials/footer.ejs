@@ -71,11 +71,27 @@
 <footer>
     © 2026 Meo meo meo reserved.
 </footer>
+
+<button id="chat-toggle">Dumb AI</button>
+
+<div id="chat-container">
+
+  <div class="chat-header">
+    <span>Dumb AI</span>
+    <span id="chat-close">✖</span>
+  </div>
+
+  <div id="chat-messages"></div>
+
+  <form id="chat-form" class="chat-input-area">
+    <input id="chat-input" placeholder="Ask about anime..." autocomplete="off"/>
+    <button type="submit">Send</button>
+  </form>
+
+</div>
+</body>
 <script src="js/index.js"></script>
 <% if (locals.pageJs) {%>
-    <script src="js/<% pageJS %>"></script>
+    <script src="js/<% pageJs %>"></script>
 <% } %>
-
-</body>
-
 </html>
